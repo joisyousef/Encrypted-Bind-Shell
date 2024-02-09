@@ -1,3 +1,6 @@
+Certainly! Here's an example of what you can include in your README.md file for this project:
+
+```markdown
 # Encrypted Bind Shell
 
 A simple encrypted bind shell using AES encryption.
@@ -20,3 +23,33 @@ To start the server (listener):
 
 ```bash
 python your_script_name.py -l
+```
+
+### Client
+
+To connect to the server:
+
+```bash
+python your_script_name.py -c <server_ip_address> -k <encryption_key>
+```
+
+- Replace `<server_ip_address>` with the IP address of the server.
+- Replace `<encryption_key>` with the shared encryption key.
+
+## Dependencies
+
+- Python 3
+- Crypto library (install using `pip install pycryptodome`)
+
+## Contributing
+
+Contributions are welcome! If you find any issues or have suggestions, feel free to open an issue or create a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
+
+Make sure to replace `<your_script_name.py>` with the actual name of your Python script. Also, if your script has a specific name, provide instructions accordingly.
+
+Feel free to adjust the content based on your preferences and specific details about the project. Additionally, add a license file (e.g., LICENSE) if you haven't done so already and include it in your repository.
